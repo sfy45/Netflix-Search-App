@@ -29,7 +29,7 @@ If pandas is not already installed, you can do so with:
    ```
 
 3. **Prepare the Dataset**:
-Ensure you downloaded the netflix_titles csv` dataset. Just put it in the application directory(eg: `app. py` or update file path in script as required.
+Ensure you downloaded the 'netflix_titles csv' dataset. Just put it in the application directory (eg:'app.py' or update file path in script as required.)
 
 ## Usage
 
@@ -41,12 +41,6 @@ Ensure you downloaded the netflix_titles csv` dataset. Just put it in the applic
 2. **Search for Titles**:
 Enter your search term in the text box, and click "search."
 Below the search button, you will see the results.
-
-## File Structure
-
-- `app. py`: The primary operating Python script for the application
-- `netflix_titles. `csv`: Netflix titles dataset (if available).
-- `README. md`: The project metadata file.
 
 ## Contributing
 
