@@ -12,13 +12,13 @@ A Basic Python Script Used to Find a Netflix Title with a Tkinter GUI. This app 
 
 - Python 3.x
 - `pandas`
-`tkinter` (Usually installed with your system Python)
+- `tkinter` (Usually installed with your system Python)
 
 ## Installation
 
 1. **Clone the Repository**:
    ```bash
-$ git clone https://github.com/your-username/Netflix-Search-App.git
+   $ git clone https://github.com/your-username/Netflix-Search-App.git
    cd Netflix-Search-App
    ```
 
