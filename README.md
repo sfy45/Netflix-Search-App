@@ -1,35 +1,35 @@
 ## Netflix Search App
 
-A simple Python application that allows users to search for Netflix titles using a Tkinter-based graphical user interface (GUI). This app leverages the power of `pandas` to load and search through a CSV dataset of Netflix titles.
+A Basic Python Script Used to Find a Netflix Title with a Tkinter GUI. This app is a demonstration to show how we can load a CSV dataset of Netflix titles using the power of `pandas` and then search through it.
 
 ## Features
 
-- **Search by Title**: Input a movie or show title to find relevant matches.
-- **View Results**: Shows the title, type, genre, and release year of the matched entries.
-- **Error Handling**: Displays error messages if the dataset fails to load or if there are search issues.
+- **Search by Title**: enter text for a movie of show title, and get relevant matches.
+- **View Results**: Displays the matched entries title type genre and release year
+- **Error Handling** : Show error message when data set fails to load or cannot search.
 
 ## Requirements
 
 - Python 3.x
 - `pandas`
-- `tkinter` (typically included with Python)
+`tkinter` (Usually installed with your system Python)
 
 ## Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Netflix-Search-App.git
+$ git clone https://github.com/your-username/Netflix-Search-App.git
    cd Netflix-Search-App
    ```
 
-2. **Install Required Packages**:
-   If `pandas` is not already installed, you can do so with:
+2. **Install dependencies**:
+If pandas is not already installed, you can do so with:
    ```bash
    pip install pandas
    ```
 
 3. **Prepare the Dataset**:
-   Make sure you have the `netflix_titles.csv` dataset. Place it in the same directory as `app.py` or adjust the file path in the script as needed.
+Ensure you downloaded the netflix_titles csv` dataset. Just put it in the application directory(eg: `app. py` or update file path in script as required.
 
 ## Usage
 
@@ -39,19 +39,19 @@ A simple Python application that allows users to search for Netflix titles using
    ```
 
 2. **Search for Titles**:
-   - Type your search query in the text box and click "Search."
-   - The results will appear below the search button.
+Enter your search term in the text box, and click "search."
+Below the search button, you will see the results.
 
 ## File Structure
 
-- `app.py`: The main Python script that operates the application.
-- `netflix_titles.csv`: The dataset with Netflix titles (if included).
-- `README.md`: This document, which provides project information.
+- `app. py`: The primary operating Python script for the application
+- `netflix_titles. `csv`: Netflix titles dataset (if available).
+- `README. md`: The project metadata file.
 
 ## Contributing
 
-You're welcome to submit issues or pull requests if you have suggestions or bug fixes. Contributions are appreciated!
+If you have a contribution to make, feel free to submit issues or pull requests. PRs are more than welcome!
 
 ## Contact
 
-For any questions or feedback, please contact [sophiasad1421@gmail.com]. 
+If you have any queries or feedback drop us a mail [sophiasad1421@gmail.com].
